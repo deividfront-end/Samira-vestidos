@@ -166,36 +166,41 @@ li, a, button {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   margin-top: 10px;
-  color: #ffffff;
-  letter-spacing: 4px;
+  color: #6e06e4;
+  letter-spacing: 2px;
   font-size: 20px;
   align-items: center;
-  background-color: #9c05fa;
+
+
+
 }
 
 .container-projects {
   height: 200px;
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   gap: 20px;
   justify-items: center;
   text-align: justify;
   padding: 20px;
-  color: #035677;
   font-family: "Montserrat", sans-serif;
-  background-color:#9d00ff82;
+
+}
+
+h3{
+  color:#000000;
 }
 
 h3:hover {
-  color: #4c0655;
+  color: #ffea00;
 }
 
 /*Estilização Container Sobre/About*/
 
 .container-sobre {
-  font-size: 18px;
-  padding: 20px;
+  font-size: 20px;
+  padding: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
   color: rgb(0, 0, 0);
@@ -204,9 +209,21 @@ h3:hover {
   justify-items: center;
   align-items: center;
   text-align:center;
-  background-color: #b27ddb8d;
+  background-color: #beb5c58d;
+  letter-spacing: 4px;
 }
 
+
+.texto{
+  letter-spacing: 4px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  background-color: #beb5c58d;
+  padding:0 0 50px ;
+  color: #000000;
+}
 /*Estilização Container Redes*/
 
 .container-redes {
@@ -237,16 +254,21 @@ h3:hover {
 
 /*Responsive  */
 @media (max-width: 415px) {  
-  
-
+  body{
+  background-image: url(../img/fundo2.jpg)!important;
+  background-size: contain;
+  }
   /*Estilização Menu */
-
+nav{
+  width: 410px!important;
+}
   .container-menu {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
     gap: 2px;
+    background-color: #b40bedbc;
   }
 
   /*span do menu Hover */
@@ -283,7 +305,7 @@ nav a:nth-child(4):hover ~ span {
   nav a {
     display: flex;
     margin-left: 5px;
-    background-color: #0000004a;
+    
     border-radius: 12px;
   }
 
@@ -315,13 +337,16 @@ nav a:nth-child(4):hover ~ span {
 
 
   /*Estilização slider RESPONSIVE */
-
+.titulo-projects h3{
+  padding: 20px;
+}
   .container-projects {
     height: 150px;
     margin: 10px;
     display: flex;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 1px;
     gap: 20px;
     justify-items: center;
     text-align: justify;
@@ -366,9 +391,30 @@ nav a:nth-child(4):hover ~ span {
     float: left;
   }
   
+h3{
+  color:#ffffff;
+}
 
+  .titulo-projects {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0px;
+    letter-spacing: 4px;
+    font-size: 20px;
+    align-items: center;
+    background-color: #9c05fa;
+  }
 
-
+.titulo-projects h3:hover{
+  color: #ffff00 !important;
+}
+.container-projects{
+  background-color: #9c05fa;
+  margin-top: 0;
+}
   .pj1 h3 {
     letter-spacing: 2px;
     color: #ffffff;
@@ -393,26 +439,41 @@ nav a:nth-child(4):hover ~ span {
   h3:hover {
     color: #fff700;
   }
-
+.titulo-about h3{
+  color:#ffffff;
+}
   .container-sobre {
-    background-color: #000000;
+    margin-bottom: 1px;
     padding: 20px;
     margin-top: 0px;
-    color: white;
+    color: rgb(0, 0, 0)!important;
     display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
+    letter-spacing: 8px;
   }
+  
+.texto{
+  letter-spacing: 4px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  background-color: #beb5c58d;
+  padding:10px 0 50px ;
+  color: #000000;
+  font-size: 20px;
+}
 
   .container-rodape {
     margin-top: 0px;
     display: flex;
     justify-content: center;
     justify-items: center;
-    background-color: #000000aa;
+    background-color: #ffffffaa;
     padding: 10px;
   }
 }
