@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 * {
   height: none;
   margin: 0;
@@ -10,97 +11,60 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
   background-image: url(../img/fundo2.jpg);
   background-size: cover;
 }
 
 /*Estilização Menu */
 
-.header-menu {
- 
-  max-width: auto;
-}
-
 .container-menu {
-  background-color: #d2d8db;
   display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
   gap: 5px;
   margin-top: 0px;
+  background-color: #ff009d;  
 }
-
 nav {
-  position: relative;
-  width: 524px;
-  height: 50px;
-  background: #4e0672d7;
-  border-radius: 8px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  justify-items: center;
+  gap: 20px;
 }
-
 nav a {
-  position: relative;
-  display: inline-block;
-  font-size: 1em;
-  font-weight: 500;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: "Indie Flower";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 5px;
   color: #ffffff;
   text-decoration: none;
-  padding: 0 23px;
-  z-index: 1;
+  height: 20px;
 }
-
-nav span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 523px;
-  height: 100%;
-  background: #9c05fa;
-  border-radius: 8px;
-  transition: 0.5s;
-}
-nav a:nth-child(1):hover ~ span {
-  left: 70px;
-  width: 60px;
-}
-
-nav a:nth-child(2):hover ~ span {
-  left: 174px;
-  width: 67px;
-}
-
-nav a:nth-child(3):hover ~ span {
-  left: 282px;
-  width: 60px;
-}
-
-nav a:nth-child(4):hover ~ span {
-  left: 375px;
-  width: 75px;
-}
-
-li, a, button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #edf0f1;
-  text-decoration: none;
+nav a:hover {
+  color: rgb(26, 15, 15);
+  border-radius: 5px;
 }
 
 /*Estilização Titulo */
-.container-home {
+.container-titulo {
   margin-top: 50px;
   gap: 20px;
   display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
-  color: #6e06e4;
+  color: #e406b4;
+}
+.container-titulo h1 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
 }
 
 /*Estilização SubTitulo */
@@ -108,10 +72,11 @@ li, a, button {
   display: flex;
   justify-content: center;
   justify-items: center;
-  margin-top: 0px;
+  margin-top: -10px;
   margin-bottom: 50px;
-  font-size: 15px;
+  font-size: 20px;
   color: #000000;
+  font-family: "Indie Flower", cursive;
 }
 
 /*Estilização slider*/
@@ -130,31 +95,35 @@ li, a, button {
 }
 
 .slide .slide1 {
-  width: 500px;
+  width: 400px;
   height: 300px;
   float: left;
   border-radius: 5px;
+  border: solid 1px #ff00b3;
 }
 
 .slide .slide2 {
-  border-radius: 5px;
-  width: 500px;
+  width: 400px;
   height: 300px;
   float: left;
+  border-radius: 5px;
+  border: solid 1px #ff00b3;
 }
 
 .slide .slide3 {
-  border-radius: 5px;
-  width: 500px;
+  width: 400px;
   height: 300px;
   float: left;
+  border-radius: 5px;
+  border: solid 1px #ff00b3;
 }
 
 .slide .slide4 {
-  border-radius: 5px;
-  width: 500px;
+  width: 400px;
   height: 300px;
   float: left;
+  border-radius: 5px;
+  border: solid 1px #ff00b3;
 }
 
 /*Estilização Container Vestidos*/
@@ -164,15 +133,12 @@ li, a, button {
   justify-content: center;
   justify-items: center;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Indie Flower", cursive!important;
   margin-top: 10px;
   color: #6e06e4;
   letter-spacing: 2px;
   font-size: 20px;
   align-items: center;
-
-
-
 }
 
 .container-projects {
@@ -184,12 +150,11 @@ li, a, button {
   justify-items: center;
   text-align: justify;
   padding: 20px;
-  font-family: "Montserrat", sans-serif;
-
+  font-family: "Indie Flower", cursive;
 }
 
-h3{
-  color:#000000;
+h3 {
+  color: #000000;
 }
 
 h3:hover {
@@ -208,22 +173,27 @@ h3:hover {
   justify-content: center;
   justify-items: center;
   align-items: center;
-  text-align:center;
-  background-color: #beb5c58d;
+  text-align: center;
+  background-color: #b0aeb12a;
   letter-spacing: 4px;
+  font-family: "Indie Flower", cursive;
 }
 
-
-.texto{
-  letter-spacing: 4px;
+.container-texto-sobre {
   display: flex;
   justify-content: center;
-  justify-items: center;
-  text-align: center;
-  background-color: #beb5c58d;
-  padding:0 0 50px ;
+  letter-spacing: 1px;
+  text-align: justify;
+  background-color: #f1eef38d;
+  padding: 0 0 50px;
   color: #000000;
 }
+.texto {
+  width: 500px;
+ 
+}
+
+
 /*Estilização Container Redes*/
 
 .container-redes {
@@ -232,7 +202,7 @@ h3:hover {
   justify-items: center;
   text-align: center;
   color: #edf0f1;
-  background-color:  #ffffffcb;
+  background-color: #ff009d;  
   padding: 10px;
   gap: 15px;
 }
@@ -243,237 +213,343 @@ h3:hover {
   justify-content: center;
   justify-items: center;
   text-align: center;
-  color: #000000;
-  background-color:  #ffffffb8;
+  color: #ffffff;
+  background-color: #ff009d;  
   margin-bottom: 0px;
-  font-size: 15px;
+  font-size: 12px;
   padding-bottom: 4px;
   padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Responsive  */
-@media (max-width: 415px) {  
-  body{
-  background-image: url(../img/fundo2.jpg)!important;
-  background-size: contain;
-  }
-  /*Estilização Menu */
-nav{
-  width: 410px!important;
+.container-rodape a {
+  color: #edf0f1;
 }
+
+/*Responsive  */
+@media (max-width: 415px) {
+  body {
+    background-image: url(../img/fundo2.jpg) !important;
+    background-size: contain;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  height: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../img/fundo2.jpg);
+  background-size: cover;
+}
+
+/*Estilização Menu */
+
+.container-menu {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 0px;
+  background-color: #ff009d;  
+}
+nav {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+}
+nav a {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: "Indie Flower";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  height: 20px;
+}
+nav a:hover {
+  color: rgb(26, 15, 15);
+  border-radius: 5px;
+}
+
+/*Estilização Titulo */
+.container-titulo {
+  margin-top: 50px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  color: #e406b4;
+}
+.container-titulo h1 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+/*Estilização SubTitulo */
+.conteudo-subtitulo {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #000000;
+  font-family: "Indie Flower", cursive;
+}
+
+/*Estilização slider*/
+.container-slider {
+  justify-content: center;
+  justify-content: center !important;
+  justify-items: center;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.slide .slide1 {
+  width: 400px;
+  height: 300px;
+  float: left;
+  border-radius: 5px;
+  border: solid 1px #ff00b3;
+}
+
+.slide .slide2 {
+  width: 400px;
+  height: 300px;
+  float: left;
+  border-radius: 5px;
+  border: solid 1px #ff00b3;
+}
+
+.slide .slide3 {
+  width: 400px;
+  height: 300px;
+  float: left;
+  border-radius: 5px;
+  border: solid 1px #ff00b3;
+}
+
+.slide .slide4 {
+  width: 400px;
+  height: 300px;
+  float: left;
+  border-radius: 5px;
+  border: solid 1px #ff00b3;
+}
+
+/*Estilização Container Vestidos*/
+
+.titulo-projects {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-weight: 500;
+  font-family: "Indie Flower", cursive!important;
+  margin-top: 10px;
+  color: #e406ac;
+  letter-spacing: 2px;
+  font-size: 20px;
+  align-items: center;
+  
+}
+
+.container-projects {
+  height: 110px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  justify-items: center;
+  text-align: justify;
+  padding: 20px;
+  font-family: "Indie Flower", cursive;
+}
+
+h3 {
+  color: #000000;
+}
+
+h3:hover {
+  color: #ffea00;
+}
+
+/*Estilização Container Sobre/About*/
+
+.container-sobre {
+  font-size: 20px;
+  padding: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  background-color: #b0aeb12a;
+  letter-spacing: 4px;
+  font-family: "Indie Flower", cursive;
+}
+
+.container-texto-sobre {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  text-align: justify;
+  background-color: #f1eef38d;
+  padding: 0 0 50px;
+  color: #000000;
+}
+.texto {
+  width: 500px;
+ 
+}
+
+
+/*Estilização Container Redes*/
+
+.container-redes {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  color: #edf0f1;
+  background-color: #ff009d;  
+  padding: 10px;
+  gap: 15px;
+}
+/*Estilização Container Rodapé*/
+.container-rodape {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff009d;  
+  margin-bottom: 0px;
+  font-size: 12px;
+  padding-bottom: 4px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-rodape a {
+  color: #edf0f1;
+  text-decoration: none;
+}
+  /*Estilização Menu */
+  nav {
+    width: 410px !important;
+  }
   .container-menu {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
     gap: 2px;
-    background-color: #b40bedbc;
+    background-color: #ff009d;  
   }
 
   /*span do menu Hover */
-nav span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 340px!important;
-  height: 100%;
-  background: #9903df;
-  border-radius: 8px;
-  transition: 0.5s;
-}
-nav a:nth-child(1):hover ~ span {
-  left: 28px;
-  width: 72px!important;
-}
-
-nav a:nth-child(2):hover ~ span {
-  left: 99px;
-  width: 72px!important;
-}
-
-nav a:nth-child(3):hover ~ span {
-  left: 174px;
-  width: 70px!important;
-}
-
-nav a:nth-child(4):hover ~ span {
-  left: 246px;
-  width: 72px!important;
-}
-/*Botoes do Menu nav */
-  nav a {
-    display: flex;
-    margin-left: 5px;
-    
-    border-radius: 12px;
-  }
-
-  nav .home {
-    display: flex;
-    justify-content: center;
-    width: 68px;
-  }
-
-  nav .projects {
-    display: flex;
-    justify-content: center;
-    width: 68px;
-    gap: 10px !important;
-  }
-
-  nav .about {
-    display: flex;
-    justify-content: center;
-    width: 68px;
-    gap: 10px !important;
-  }
-  nav .contact {
-    display: flex;
-    justify-content: center;
-    width: 68px;
-    gap: 10px !important;
-  }
-
-
-  /*Estilização slider RESPONSIVE */
-.titulo-projects h3{
-  padding: 20px;
-}
-  .container-projects {
-    height: 150px;
-    margin: 10px;
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 1px;
-    gap: 20px;
-    justify-items: center;
-    text-align: justify;
-    padding: 20px;
-    color: #035677;
-    font-family: "Montserrat", sans-serif;
-    background-color: #000000;
-  }
-
-  .container-slider {
-    justify-content: center;
-    justify-content: center !important;
-    justify-items: center;
-  }
   
-  .slider {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-  }
-  
+
+
+ 
+
   .slide .slide1 {
     width: 350px;
     height: 300px;
     float: left;
     border-radius: 5px;
   }
-  
+
   .slide .slide2 {
     border-radius: 5px;
     width: 350px;
     height: 300px;
     float: left;
   }
-  
+
   .slide .slide3 {
     border-radius: 5px;
     width: 350px;
     height: 300px;
     float: left;
   }
-  
-h3{
-  color:#ffffff;
-}
+
+  h3 {
+    color: #ffffff;
+  }
 
   .titulo-projects {
     display: flex;
     justify-content: center;
     justify-items: center;
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Indie Flower", cursive;
     margin-bottom: 0px;
     letter-spacing: 4px;
     font-size: 20px;
     align-items: center;
-    background-color: #9c05fa;
+    background-color: #ff009d;  
   }
 
-.titulo-projects h3:hover{
-  color: #ffff00 !important;
-}
-.container-projects{
-  background-color: #9c05fa;
-  margin-top: 0;
-}
+  .titulo-projects h3:hover {
+    color: #ffff00 !important;
+  }
+  .container-projects {
+    font-family: "Indie Flower", cursive;
+    background-color: #ececec;
+    margin-top: 0;
+  }
   .pj1 h3 {
     letter-spacing: 2px;
-    color: #ffffff;
+    color: #000000;
     font-size: 10px;
   }
   .pj2 h3 {
     letter-spacing: 2px;
-    color: #ffffff;
+    color: #000000;
     font-size: 10px;
   }
   .pj3 h3 {
     letter-spacing: 2px;
-    color: #ffffff;
+    color: #000000;
     font-size: 10px;
   }
-  .pj4 h3 {
-    letter-spacing: 2px;
-    color: #ffffff;
-    font-size: 10px;
-  }
+
 
   h3:hover {
     color: #fff700;
   }
-.titulo-about h3{
-  color:#ffffff;
-}
-  .container-sobre {
-    margin-bottom: 1px;
-    padding: 20px;
-    margin-top: 0px;
-    color: rgb(0, 0, 0)!important;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 8px;
+  .titulo-about h3 {
+    font-family: "Indie Flower", cursive;
+    color: #ffffff;
   }
   
-.texto{
-  letter-spacing: 2px;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
-  background-color: #beb5c58d;
-  padding:20px 20px 20px ;
-  color: #000000;
-  font-size: 15px;
-}
-
-  .container-rodape {
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    background-color: #ffffffaa;
-    padding: 10px;
-  }
 }
