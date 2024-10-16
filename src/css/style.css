@@ -318,7 +318,7 @@ nav a:hover {
 
 /*Estilização slider*/
 .container-slider {
-  margin-bottom: 98PX;
+  margin-bottom: 98px!important;
   justify-content: center;
   justify-content: center !important;
   justify-items: center;
