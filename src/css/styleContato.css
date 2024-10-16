@@ -14,7 +14,29 @@ body {
   background-image: url(../img/fundo2.jpg);
   background-size: cover;
 }
+.container-fale-comigo{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+ 
 
+
+
+  }
+
+.fale-comigo{
+width: 500px;
+border-radius: 10px 10px 0px 0px;
+height: 40px;
+padding: top 20px;
+   
+background-color: #ff009d;  
+  & h2{
+   
+
+    color:white;
+  } 
+}
 /*Estilização Menu */
 
 .container-menu {
@@ -91,7 +113,7 @@ form {
     margin: 0 auto;  
     padding: 20px;  
     background: #ffffff;  
-    border-radius: 10px;  
+    border-radius: 0px;  
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
     border-color: #ffffff;
     
@@ -124,9 +146,11 @@ textarea:focus {
 }  
 
 button {  
-    width: 100%;  
+ 
+   
+    width: 100%; 
     padding: 10px;  
-    background-color: #ff0080;  
+    background-color: #ff009d;  
     color: white;  
     border: none;  
     border-radius: 5px;  
@@ -136,7 +160,8 @@ button {
 }  
 
 button:hover {  
-    background-color: #c24a9a;  
+    background-color: #f80880;  
+    color: #000000;
 }  
 
 input[type="hidden"] {  
@@ -211,6 +236,7 @@ input[type="hidden"] {
   text-decoration: none;
 
 }
-   
+
+
 }
 }

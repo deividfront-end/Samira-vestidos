@@ -81,6 +81,7 @@ nav a:hover {
 
 /*Estilização slider*/
 .container-slider {
+  margin-bottom: 214PX;
   justify-content: center;
   justify-content: center !important;
   justify-items: center;
@@ -224,6 +225,7 @@ h3:hover {
 
 .container-rodape a {
   color: #edf0f1;
+  text-decoration: none;
 }
 
 /*Responsive  */
@@ -316,6 +318,7 @@ nav a:hover {
 
 /*Estilização slider*/
 .container-slider {
+  margin-bottom: 98PX;
   justify-content: center;
   justify-content: center !important;
   justify-items: center;
@@ -402,7 +405,7 @@ h3:hover {
 .container-sobre {
   font-size: 20px;
   padding: 30px;
-  margin-top: 0px;
+  margin-top: 50px;
   margin-bottom: 0px;
   color: rgb(0, 0, 0);
   display: flex;
