@@ -318,7 +318,7 @@ nav a:hover {
 
 /*Estilização slider*/
 .container-slider {
-  margin-bottom: 98px!important;
+  margin-bottom: 298px!important;
   justify-content: center;
   justify-content: center !important;
   justify-items: center;
@@ -529,21 +529,6 @@ h3:hover {
     font-family: "Indie Flower", cursive;
     background-color: #ececec;
     margin-top: 0;
-  }
-  .pj1 h3 {
-    letter-spacing: 2px;
-    color: #000000;
-    font-size: 10px;
-  }
-  .pj2 h3 {
-    letter-spacing: 2px;
-    color: #000000;
-    font-size: 10px;
-  }
-  .pj3 h3 {
-    letter-spacing: 2px;
-    color: #000000;
-    font-size: 10px;
   }
 
 
